@@ -152,7 +152,10 @@ function init() {
     .then(answers => {
         return generateMarkdown(answers)
     })
-
+    .then(data => {
+        console.log(data)
+        return writeToFile(data)
+    })
 }
 
 // Function call to initialize app
