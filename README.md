@@ -1,25 +1,31 @@
 
-  # title
+  # Readme Generator
 
   ## Description
   
-  test
+  This application is intended to help users generate readme files with ease.
   
-  ## Table of Contents (Optional)
+  ## Table of Contents
   
-  test
+  - [Installation](#installation)
+
+  - [Usage](#usage)
+
+  - [Credits](#credits)
+
+  - [Licenses](#license)
   
   ## Installation
   
-  test
+  You can install this application by forking the repository
   
   ## Usage
   
-  test
+  Once the application is installed you can use a the terminal of your choosing and follow the prompts that the application provides
   
   ## Credits
   
-  test
+  Please contact me directly if you are interested in contributing to this project
   
   ## License
   
@@ -29,14 +35,16 @@
   
   
   
-  ## Features
-  
-  undefined
-  
   ## How to Contribute
   
-  test
+  Please contact me directly if you are interested in contributing to this project
   
   ## Tests
+
+  You can test the application by running the application.
+
+  ## Github link
+
+  Above is the link to my github profile
 
   

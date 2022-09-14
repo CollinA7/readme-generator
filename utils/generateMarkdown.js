@@ -19,9 +19,15 @@ function generateMarkdown(data) {
   
   ${data.description}
   
-  ## Table of Contents (Optional)
+  ## Table of Contents
   
-  ${data.contents}
+  - [Installation](#installation)
+
+  - [Usage](#usage)
+
+  - [Credits](#credits)
+
+  - [Licenses](#license)
   
   ## Installation
   
@@ -43,15 +49,17 @@ function generateMarkdown(data) {
   
   
   
-  ## Features
-  
-  ${data.features}
-  
   ## How to Contribute
   
   ${data.contribute}
   
   ## Tests
+
+  ${data.tests}
+
+  ## Github link
+
+  ${data.github}
 
   `;
 };

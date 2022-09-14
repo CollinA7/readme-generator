@@ -22,7 +22,7 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'How would you like to describe the project to in the README.md?',
+        message: 'How would you describe your project in the README.md?',
         validate: describeInput => {
             if (describeInput) {
                 return true;
@@ -34,21 +34,8 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contents',
-        message: 'What contents would you like to include?',
-        validate: tableOfContents => {
-            if (tableOfContents) {
-                return true;
-            } else {
-                console.log('Please enter contents for the table of contents');
-                return false;
-            }
-        }
-    },
-    {
-        type: 'input',
         name: 'installation',
-        message: 'How would someone install your application?',
+        message: 'How to install the application?',
         validate: installGuide => {
             if (installGuide) {
                 return true;
@@ -61,7 +48,7 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'How would someone use your the application?',
+        message: 'How to use the application?',
         validate: usageInput => {
             if (usageInput) {
                 return true;
