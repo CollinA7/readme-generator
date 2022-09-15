@@ -66,7 +66,7 @@ const questions = [
     {
         type: 'input',
         name: 'contribute',
-        message: 'How some one can contribute to your application.',
+        message: 'How can someone contribute to your application?',
         validate: contributeInput => {
             if (contributeInput) {
                 return true;

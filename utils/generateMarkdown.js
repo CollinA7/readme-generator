@@ -41,14 +41,6 @@ function generateMarkdown(data) {
   
   ${data.contribute}
   
-  ## License
-  
-  ---
-  
-  ## Badges
-  
-  
-  
   ## How to Contribute
   
   ${data.contribute}
