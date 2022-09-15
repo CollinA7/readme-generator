@@ -27,14 +27,6 @@
   
   Please contact me directly if you are interested in contributing to this project
   
-  ## License
-  
-  ---
-  
-  ## Badges
-  
-  
-  
   ## How to Contribute
   
   Please contact me directly if you are interested in contributing to this project

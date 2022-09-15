@@ -61,7 +61,7 @@ const questions = [
         type: 'checkbox',
         name: 'licenses',
         message: 'What licenses are registered with the application?',
-        choices: ['Apache']
+        choices: ['Apache 2.0', 'BSD', 'GNU', 'MIT','Mozilla Public 2.0' ]
     },
     {
         type: 'input',
@@ -126,7 +126,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then(inquirerResponses => {
         console.log('Generating README...');
-        writeToFile('README.md', generateMarkdown({ ...inquirerResponses }));
+        writeToFile("./generated-readme/README.md", generateMarkdown({ ...inquirerResponses }));
     });
 
 }
