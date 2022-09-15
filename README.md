@@ -23,6 +23,10 @@
   
   Once the application is installed you can use a the terminal of your choosing and follow the prompts that the application provides
   
+  Here is a video showing the application
+  
+  https://drive.google.com/file/d/1Mf4w6fq_PxeebzRxuCUwBAw2VP_EM_id/view
+  
   ## Credits
   
   Please contact me directly if you are interested in contributing to this project
