@@ -40,7 +40,7 @@
   You can test the application by running the application.
 
   ## Github link
-
-  Above is the link to my github profile
+  
+  https://github.com/CollinA7/readme-generator/blob/main/README.md
 
   
